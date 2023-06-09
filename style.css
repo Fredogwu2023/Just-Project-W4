@@ -1,0 +1,195 @@
+* {
+
+    margin: 2;
+}
+
+body.html{
+    overflow: hidden;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    background-color: #F9FBFF;
+}
+
+.navsection{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    border: 2px solid #155EEF;
+    border-radius: 8px;
+    padding: 1%;
+
+}
+
+.hireBtn{
+border: 1px solid #155EEF;
+border-radius: 8px;
+width: 90%;
+font-family: 'Manrope';
+font-style: normal;
+font-size: 16;
+font-weight: 700;
+width: 94px;
+height: 44px;
+margin-top: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+.hero-section{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    border: 2px solid #155EEF;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 1%;
+
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: center;
+    width: 100%;
+}
+.hero-img {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+.hero{
+    padding: 2%;
+    width: 50%;
+}
+
+.heroP{
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #2E3A53;
+    margin-bottom:  0;
+}
+
+.hero-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #2E3A53;
+}
+
+.hero button{
+    width: 164px;
+    height: 44;
+    font-family: 'Manrope';
+    font-style: normal;
+    background: #155EEF;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    
+    font-size: 16px;
+    color: #2E3A53;
+    color: #FFFFFF;
+
+}
+
+.heroheading{ 
+    font-family: 'Halant';
+    font-weight: 600;
+    font-size: 46;
+    margin-top: 0;
+    /* line-height: 120%; */
+    color: #155EEF;
+}
+
+.aboutsection {
+width: 90%;
+display: flex;
+margin: auto;
+justify-content: space-between;
+border: 2px solid #155EEF;
+border-radius: 8px;
+margin-top: 20px;
+padding: 1%;
+}
+
+.aboutsection p{
+    font-family: 'manrope';
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+text-align: justify;
+color: #2E3A53;
+}
+
+.aboutsection h2{
+    font-family: 'Halant';
+font-weight: 600;
+font-size: 40px;
+line-height: 120%;
+color: #041330;
+}
+
+.abouttext{
+    width: 50%;
+    margin-top: 3%;
+}
+
+.footsection{
+    width: 90%;
+display: flex;
+margin: auto;
+justify-content: space-between;
+border: 2px solid #155EEF;
+border-radius: 8px;
+margin-top: 20px;
+padding: 1%;
+}
+
+.footerlinkimg{
+    margin-top: 1.5%;
+    padding: 0;
+}
+
+@media screen { 
+    min-width: 480px;
+    max-width: 1030px;
+
+    .img{
+        width: 40%;
+    }
+.img1{
+width: 100%;
+height: 100%;
+
+}
+   .aboutimg{
+    width: 50%;
+   } 
+.img2{
+width: 100%;
+height: 100% ;
+}
+
+.abouttext{
+    width: 45%;
+}
+
+.footerlinkimg{
+    margin-top: 2%;
+    padding: 0%;
+}
+}
+
